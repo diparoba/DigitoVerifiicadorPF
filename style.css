@@ -1,3 +1,7 @@
+.resultado {
+    background-color: rgb(190, 128, 69);
+    border-radius: 7px;
+}
 .contenedor{
         margin: auto; /* Centrar */
         background-color: rgb(41, 206, 184);
