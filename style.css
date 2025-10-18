@@ -1,3 +1,17 @@
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background: rgba(255, 250, 250, 0);
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 60px 0;
+    border-bottom: 1px solid silver;
 .resultado {
     background-color: rgb(190, 128, 69);
     border-radius: 7px;
