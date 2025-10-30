@@ -11,7 +11,7 @@ function validarCedula() {
 
     // 1. Validaciones Iniciales
     if (!/^\d{10}$/.test(cedula)) {
-        mostrarResultado(resultadoElement, 'Debe ingresar 10 dígitos numéricos.', false);
+        mostrarResultado(resultadoElement, '❌ Debe ingresar 10 dígitos numéricos.', false);
         return;
     }
 
